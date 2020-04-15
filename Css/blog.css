@@ -1,0 +1,11 @@
+#blog{
+	justify-content: center;
+}
+
+#blog article{
+	margin: 15px;
+}
+#blog img{
+	width: 100%;
+	max-width: 100px;
+}
