@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Delivery</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body background="banner4.jpg" class="hola4">
+<style type="text/css">
+	
+</style>
+<header>
+	<div class="contenedor4"> 
+	
+<h1 class="icon-pencil"> Evolucion Grafica</h1>
+	<input type="checkbox" id="menu-bar4">
+	<label class=" icon-menu" for="menu-bar4"></label>
+	<nav class="menu4">
+		<a href="index.html">Inicio</a>
+		<a href="Nosotros.html">Nosotros</a>
+		<a href="Productos.html">Productos</a>
+		<a href="">Contacto</a>
+		<a href="Ubicacion.html">Ubicacion</a>
+	</nav>
+    </div>
+
+</header>
+<main>
+	
+	<div class="form">
+	<form action="https://evoluciongrafica26.000webhostapp.com/guardar.php" method="POST">
+		<p>Nombre</p>
+        <label for="Nombre">Su nombre</label>
+        <br>
+        <input type="text" name="Nombre" placeholder="Nombre" required>
+        <p>Correo</p>
+        <label for="Email">Dirección de correo</label>
+        <br>
+        <input type="text" name="Email" placeholder="alguien@algo.com" required>
+        <p>Asunto</p>
+        <label for="Asunto">Producto</label>
+        <br>
+        <input type="text" name="Asunto" placeholder="algo" required>
+        <br>
+        <br>
+        <input type="submit" name="Submit" value="Enviar">
+	</form>
+
+</div>
+
+
+<p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+
+<form action="Eliminar.php" method="POST">
+	Clave: <input type="text" name="txtClave"> </br>
+	<input type="submit" value="Eliminar Registro" name="btnEliminar">
+</form>
+
+<p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<form action="Actualizar.php" method="POST">
+
+	Clave: <input type="text" name="txtClave"> </br>
+    Nombre: <input type="text" name="txtNombre"> </br>
+    <input type="submit" value="Actualizar Registro" name="btnActualizar">
+
+</form>
+
+<p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<form action="Registros.php">
+	<input type="submit" value="Ver Registro" name="btnRegistros">
+</form>
+
+
+</main>
+
+
+</body>
+</html>
