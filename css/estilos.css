@@ -1,0 +1,799 @@
+//Pagina de Inicio
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.back1{
+	position: fixed;
+	margin: 150px;
+}
+
+.pr1{
+	margin-top: 50px;
+	color: #fff;
+	margin-left: 900px;
+	float: center;
+
+}
+
+
+.hola{
+
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+
+header{
+	width: 100%;
+	height: 50px;
+	background: #333;
+	color: #fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.contenedor{
+	width: 98%;
+}
+
+h1{
+	float: left;
+}
+
+header .content{
+	display: table;
+	
+}
+
+section{
+	width: 100%;
+	margin-bottom: 25px
+}
+
+
+
+
+
+#blog{
+	justify-content: center;
+}
+
+#blog article{
+	margin: 15px;
+}
+#blog img{
+	width: 100%;
+	max-width: 100px;
+}
+
+
+#menu-bar {
+display: none;
+
+}
+ header label {
+ 	float: right;
+ 	font-size: 28px;
+ 	margin: 6px 0;
+ 	cursor: pointer;
+
+ }
+
+ .menu{
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	margin: 39px 3px 3px 3px;
+ 	width: 100%
+ 	height: 100vh
+ 	background: rgba(51,51,51,0.9);
+ 	transition: all 0.5s;
+ 	transform: translateX(-100%);
+
+ }
+.menu a{
+	display: block;
+	color: #fff;
+	height: 100	px;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+
+}
+.menu a:hover{
+background: rgba(255,255,255,0.3);
+}
+
+#menu-bar:checked ~ .menu{
+	transform: translateX(0%);
+}
+
+
+
+ #banner {
+	margin-top: 50px;
+	position: relative;
+}
+
+#banner img{
+	width: 100%;
+	height: 100%;
+}
+#banner .contenedor{
+	
+	top: 38%;
+	left: 50%;
+	transform: translateX(-30%) translateY(-30%);
+	color: #fff;
+
+}
+
+
+#banner a{
+	display: block;
+	width: 100px;
+	color: #fff;
+	text-decoration: none;
+	padding: 7px;
+	margin-top: 10px;
+	border: 3px solid #fff;
+}
+#banner a:hover{
+	background: rgba(51,51,51,0.3)
+}
+
+
+
+//Pagina de Nosotros
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.hola2{
+
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+
+.pr2{
+position: fixed;
+	width: 325px;
+	hyphens: 325px;
+	margin-left: 600px;
+	margin-top: 150px;
+	
+
+}
+	
+.txt2{
+	position: fixed;
+	margin-top: 400px;
+	margin-left: 100px;
+}
+
+
+header{
+	width: 100%;
+	height: 50px;
+	background: #333;
+	color: #fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.contenedor2{
+	width: 98%;
+}
+
+h1{
+	float: left;
+}
+
+header .content{
+	display: table;
+	
+}
+
+section{
+	width: 100%;
+	margin-bottom: 25px
+}
+
+#blog{
+	justify-content: center;
+}
+
+#blog article{
+	margin: 15px;
+}
+#blog img{
+	width: 100%;
+	max-width: 100px;
+}
+
+
+#menu-bar2{
+display: none;
+
+}
+ header label {
+ 	float: right;
+ 	font-size: 28px;
+ 	margin: 6px 0;
+ 	cursor: pointer;
+
+ }
+
+ .menu2{
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	margin: 39px 3px 3px 3px;
+ 	width: 100%
+ 	height: 100vh
+ 	background: rgba(51,51,51,0.9);
+ 	transition: all 0.5s;
+ 	transform: translateX(-100%);
+
+ }
+.menu2 a{
+	display: block;
+	color: #fff;
+	height: 100	px;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+
+}
+.menu2 a:hover{
+background: rgba(255,255,255,0.3);
+}
+
+#menu-bar2:checked ~ .menu2{
+	transform: translateX(0%);
+}
+
+
+
+ #banner {
+	margin-top: 50px;
+	position: relative;
+}
+
+#banner img{
+	width: 100%;
+	height: 100%;
+}
+#banner .contenedor2{
+	
+	top: 38%;
+	left: 50%;
+	transform: translateX(-30%) translateY(-30%);
+	color: #fff;
+
+}
+
+ 
+#banner a{
+	display: block;
+	width: 100px;
+	color: #fff;
+	text-decoration: none;
+	padding: 7px;
+	margin-top: 10px;
+	border: 3px solid #fff;
+}
+#banner a:hover{
+	background: rgba(51,51,51,0.3)
+}
+
+
+//Pagina de Productos
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.hola3{
+
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+.pr3{
+	position: fixed;
+	width: 325px;
+	hyphens: 325px;
+	margin: 260px;
+}
+
+.txt3{
+	position: fixed;
+	margin-top: 275px;
+	margin-left: 780px;
+}
+
+
+header{
+	width: 100%;
+	height: 50px;
+	background: #333;
+	color: #fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.contenedor3{
+	width: 98%;
+}
+
+h1{
+	float: left;
+}
+
+header .content{
+	display: table;
+	
+}
+
+section{
+	width: 100%;
+	margin-bottom: 25px
+}
+
+#blog{
+	justify-content: center;
+}
+
+#blog article{
+	margin: 15px;
+}
+#blog img{
+	width: 100%;
+	max-width: 100px;
+}
+
+
+#menu-bar3{
+display: none;
+
+}
+ header label {
+ 	float: right;
+ 	font-size: 28px;
+ 	margin: 6px 0;
+ 	cursor: pointer;
+
+ }
+
+ .menu3{
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	margin: 39px 3px 3px 3px;
+ 	width: 100%
+ 	height: 100vh
+ 	background: rgba(51,51,51,0.9);
+ 	transition: all 0.5s;
+ 	transform: translateX(-100%);
+
+ }
+.menu3 a{
+	display: block;
+	color: #fff;
+	height: 100	px;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+
+}
+.menu3 a:hover{
+background: rgba(255,255,255,0.3);
+}
+
+#menu-bar3:checked ~ .menu3{
+	transform: translateX(0%);
+}
+
+
+
+ #banner {
+	margin-top: 50px;
+	position: relative;
+}
+
+#banner img{
+	width: 100%;
+	height: 100%;
+}
+#banner .contenedor3{
+	
+	top: 38%;
+	left: 50%;
+	transform: translateX(-30%) translateY(-30%);
+	color: #fff;
+
+}
+
+ 
+#banner a{
+	display: block;
+	width: 100px;
+	color: #fff;
+	text-decoration: none;
+	padding: 7px;
+	margin-top: 10px;
+	border: 3px solid #fff;
+}
+#banner a:hover{
+	background: rgba(51,51,51,0.3)
+}
+
+
+
+//Pagina de Contacto
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.hola4{
+
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+
+header{
+	width: 100%;
+	height: 50px;
+	background: #333;
+	color: #fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.contenedor4{
+	width: 98%;
+}
+
+h1{
+	float: left;
+}
+
+header .content{
+	display: table;
+	
+}
+
+section{
+	width: 100%;
+	margin-bottom: 25px
+}
+
+#blog{
+	justify-content: center;
+}
+
+#blog article{
+	margin: 15px;
+}
+#blog img{
+	width: 100%;
+	max-width: 100px;
+}
+
+
+#menu-bar4{
+display: none;
+
+}
+ header label {
+ 	float: right;
+ 	font-size: 28px;
+ 	margin: 6px 0;
+ 	cursor: pointer;
+
+ }
+
+ .menu4{
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	margin: 39px 3px 3px 3px;
+ 	width: 100%
+ 	height: 100vh
+ 	background: rgba(51,51,51,0.9);
+ 	transition: all 0.5s;
+ 	transform: translateX(-100%);
+
+ }
+.menu4 a{
+	display: block;
+	color: #fff;
+	height: 100	px;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+
+}
+.menu4 a:hover{
+background: rgba(255,255,255,0.3);
+}
+
+#menu-bar4:checked ~ .menu4{
+	transform: translateX(0%);
+}
+
+
+
+ #banner {
+	margin-top: 50px;
+	position: relative;
+}
+
+#banner img{
+	width: 100%;
+	height: 100%;
+}
+#banner .contenedor4{
+	
+	top: 38%;
+	left: 50%;
+	transform: translateX(-30%) translateY(-30%);
+	color: #fff;
+
+}
+
+ 
+#banner a{
+	display: block;
+	width: 100px;
+	color: #fff;
+	text-decoration: none;
+	padding: 7px;
+	margin-top: 10px;
+	border: 3px solid #fff;
+}
+#banner a:hover{
+	background: rgba(51,51,51,0.3)
+}
+
+
+
+
+
+//Pagina de Ubicacion
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.hola5{
+
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+
+header{
+	width: 100%;
+	height: 50px;
+	background: #333;
+	color: #fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.contenedor5{
+	width: 98%;
+}
+
+h1{
+	float: left;
+}
+
+header .content{
+	display: table;
+	
+}
+
+section{
+	width: 100%;
+	margin-bottom: 25px
+}
+
+#blog{
+	justify-content: center;
+}
+
+#blog article{
+	margin: 15px;
+}
+#blog img{
+	width: 100%;
+	max-width: 100px;
+}
+
+
+#menu-bar5{
+display: none;
+
+}
+ header label {
+ 	float: right;
+ 	font-size: 28px;
+ 	margin: 6px 0;
+ 	cursor: pointer;
+
+ }
+
+ .menu5{
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	margin: 39px 3px 3px 3px;
+ 	width: 100%
+ 	height: 100vh
+ 	background: rgba(51,51,51,0.9);
+ 	transition: all 0.5s;
+ 	transform: translateX(-100%);
+
+ }
+.menu5 a{
+	display: block;
+	color: #fff;
+	height: 100	px;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+
+}
+.menu5 a:hover{
+background: rgba(255,255,255,0.3);
+}
+
+#menu-bar5:checked ~ .menu5{
+	transform: translateX(0%);
+}
+
+
+
+ #banner {
+	margin-top: 50px;
+	position: relative;
+}
+
+#banner img{
+	width: 100%;
+	height: 100%;
+}
+#banner .contenedor5{
+	
+	top: 38%;
+	left: 50%;
+	transform: translateX(-30%) translateY(-30%);
+	color: #fff;
+
+}
+
+ 
+#banner a{
+	display: block;
+	width: 100px;
+	color: #fff;
+	text-decoration: none;
+	padding: 7px;
+	margin-top: 10px;
+	border: 3px solid #fff;
+}
+#banner a:hover{
+	background: rgba(51,51,51,0.3)
+}
+
+
+
+.form{
+	position: relative;
+	width: 500px;
+	height: 600px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color: #e5dfcd;
+	border-radius: 20px;
+	margin: auto;
+}
+
+input[type=text],[type=email]{
+	width: 470px;
+	height: 35px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+textarea{
+	width: 470px;
+	height: 110px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+
+}
+
+input[type=submit]{
+	position: relative;
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: 150px;
+	border: 0px;
+	background-color: #32A43E;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+
+
+}
+
+P{
+	text-shadow: 0 1px 0 #fff;
+	font-size: 24px;
+}
+
+label{
+	margin: 11px 20px 0 0;
+	font-size: 16px;
+	color: #b3aba1;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+
+
+
+
+
+
